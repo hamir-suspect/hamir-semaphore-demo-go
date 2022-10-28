@@ -11,3 +11,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
+      agent:
+        machine:
+          type: s1-hamir-agent
+          os_image: ''
